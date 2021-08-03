@@ -1,6 +1,7 @@
 <template>
   <div class="home-page">
-    <h1>Home Page</h1>
+    <div class="home-title">VUE TODO</div>
+    <div class="home-author">Created by Nattapong</div>
   </div>
 </template>
 
@@ -11,9 +12,19 @@ export default {};
 <style>
 .home-page {
   width: 100%;
+  height: 100vh;
   display: flex;
-  padding-top: 160px;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+
+.home-title {
+  font-size: 72px;
+  padding-bottom: 50px;
+}
+
+.home-author {
+  font-size: 24px;
 }
 </style>

@@ -26,7 +26,7 @@ body {
   z-index: 10;
   width: 100vw;
   height: 60px;
-  background: #191919;
+  background: #555;
   color: #fff;
   display: flex;
   justify-content: center;
